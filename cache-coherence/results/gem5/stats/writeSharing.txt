@@ -1,0 +1,7 @@
+Test,Write Sharing
+All opt,186
+Block race,152
+Chunking,32820
+Chunking res race opt,32735
+Naive,32864
+Res race opt,32774

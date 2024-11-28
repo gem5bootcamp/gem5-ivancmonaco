@@ -1,0 +1,7 @@
+Test,Cache Hit
+All opt,35942.0
+Block race opt,29863.0
+Chunking,31936.0
+Chunking res race opt,35721.0
+Naive,25823.0
+Res race opt,27570.0

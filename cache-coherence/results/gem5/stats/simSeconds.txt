@@ -1,0 +1,31 @@
+Test,Cores,Time Taken (s)
+All opt,1,0.000839
+All opt,16,0.000111
+All opt,2,0.000438
+All opt,4,0.000236
+All opt,8,0.000142
+Block race opt,1,0.000828
+Block race opt,16,0.000145
+Block race opt,2,0.000456
+Block race opt,4,0.00027
+Block race opt,8,0.000179
+Chunking,1,0.000839
+Chunking,16,0.000915
+Chunking,2,0.00077
+Chunking,4,0.000814
+Chunking,8,0.00088
+Chunking res race opt,1,0.00086
+Chunking res race opt,16,0.000687
+Chunking res race opt,2,0.000791
+Chunking res race opt,4,0.000814
+Chunking res race opt,8,0.00088
+Naive,1,0.000838
+Naive,16,0.000917
+Naive,2,0.000779
+Naive,4,0.000818
+Naive,8,0.000881
+Res race opt,1,0.000838
+Res race opt,16,0.000686
+Res race opt,2,0.000774
+Res race opt,4,0.000814
+Res race opt,8,0.000881
