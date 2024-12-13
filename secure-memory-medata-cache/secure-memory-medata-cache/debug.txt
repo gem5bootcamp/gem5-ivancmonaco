@@ -1,0 +1,154 @@
+Global frequency set at 1000000000000 ticks per second
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.0.0.0
+gem5 compiled Dec 13 2024 00:12:04
+gem5 started Dec 13 2024 00:14:24
+gem5 executing on codespaces-36f82b, pid 205365
+command line: ../../gem5/build/X86/gem5.opt --debug-flags=SecureMemoryDebugFlag main.py
+
+  10656: global: CpuSidePort::recvTimingReq: Received read request without data for addr 17536
+  10656: global: SecureMemory::handleRequest: Received read request without data for addr 17536
+  10656: global: MetadataCacheRequestPort::sendPacket: Received read request without data for addr 17536
+  10656: board.memory.secure_memory.metadata_cache_request_port: SecureMemory::MetadataCacheRequestPort::sendPacket: success
+  10656: global: MetadataCacheRequestPort::sendPacket: Received read request without data for addr 2147485824
+  10656: board.memory.secure_memory.metadata_cache_request_port: SecureMemory::MetadataCacheRequestPort::sendPacket: success
+  10656: global: MetadataCacheRequestPort::sendPacket: Received read request without data for addr 2415919360
+  10656: board.memory.secure_memory.metadata_cache_request_port: SecureMemory::MetadataCacheRequestPort::sendPacket: success
+  10656: global: MetadataCacheRequestPort::sendPacket: Received read request without data for addr 2449473536
+  10656: board.memory.secure_memory.metadata_cache_request_port: SecureMemory::MetadataCacheRequestPort::sendPacket: success
+  10656: global: MetadataCacheRequestPort::sendPacket: Received read request without data for addr 2453667840
+  10656: board.memory.secure_memory.metadata_cache_request_port: SecureMemory::MetadataCacheRequestPort::sendPacket: success
+  10656: global: MetadataCacheRequestPort::sendPacket: Received read request without data for addr 2454192128
+  10656: board.memory.secure_memory.metadata_cache_request_port: SecureMemory::MetadataCacheRequestPort::sendPacket: success
+  10656: global: MetadataCacheRequestPort::sendPacket: Received read request without data for addr 2454257664
+  10656: board.memory.secure_memory.metadata_cache_request_port: SecureMemory::MetadataCacheRequestPort::sendPacket: success
+  10656: global: MetadataCacheRequestPort::sendPacket: Received read request without data for addr 2454265856
+  10656: board.memory.secure_memory.metadata_cache_request_port: SecureMemory::MetadataCacheRequestPort::sendPacket: success
+  10656: global: MetadataCacheRequestPort::sendPacket: Received read request without data for addr 2454266880
+  10656: board.memory.secure_memory.metadata_cache_request_port: SecureMemory::MetadataCacheRequestPort::sendPacket: success
+  10656: global: MetadataCacheRequestPort::sendPacket: Received read request without data for addr 2454267008
+  10656: board.memory.secure_memory.metadata_cache_request_port: SecureMemory::MetadataCacheRequestPort::sendPacket: success
+  10656: global: MetadataCacheRequestPort::sendPacket: Received read request without data for addr 2454267024
+  10656: board.memory.secure_memory.metadata_cache_request_port: SecureMemory::MetadataCacheRequestPort::sendPacket: success
+  10656: global: MetadataCacheRequestPort::sendPacket: Received read request without data for addr 2454267026
+  10656: board.memory.secure_memory.metadata_cache_request_port: SecureMemory::MetadataCacheRequestPort::sendPacket: success
+  10989: global: MetadataCacheResponsePort::recvTimingReq: Received read request without data for addr 17536
+  10990: global: MetadataCacheResponsePort::recvTimingReq: Received read request without data for addr 2147485824
+  10991: global: MetadataCacheResponsePort::recvTimingReq: Received read request without data for addr 2415919360
+  10992: global: MetadataCacheResponsePort::recvTimingReq: Received read request without data for addr 2449473536
+  10993: global: MetadataCacheResponsePort::recvTimingReq: Received read request without data for addr 2453667840
+  10994: global: MetadataCacheResponsePort::recvTimingReq: Received read request without data for addr 2454192128
+  10995: global: MetadataCacheResponsePort::recvTimingReq: Received read request without data for addr 2454257664
+  10996: global: MetadataCacheResponsePort::recvTimingReq: Received read request without data for addr 2454265856
+  10997: global: MetadataCacheResponsePort::recvTimingReq: Received read request without data for addr 2454266880
+  10998: global: MetadataCacheResponsePort::recvTimingReq: Received read request without data for addr 2454267008
+  11322: global: MetadataCacheResponsePort::answer: Received read response with data for addr 17536
+  11322: board.memory.metadata_cache: BaseCache::satisfyRequest address 17536 with offset 0 and size 64 , with a maximum size of 64
+  11655: global: MetadataCacheResponsePort::answer: Received read response with data for addr 2147485824
+  11655: board.memory.metadata_cache: BaseCache::satisfyRequest address 2147485824 with offset 0 and size 64 , with a maximum size of 64
+  11655: global: MetadataCacheRequestPort::recvTimingResp: Received read response with data for addr 17536
+  11655: global: MemSidePort::sendPacket: Received read request without data for addr 17536
+  11988: global: MetadataCacheRequestPort::recvTimingResp: Received read response with data for addr 2147485824
+  11988: global: MemSidePort::sendPacket: Received read request without data for addr 2147485824
+  11988: global: MetadataCacheResponsePort::answer: Received read response with data for addr 2415919360
+  11988: board.memory.metadata_cache: BaseCache::satisfyRequest address 2415919360 with offset 0 and size 64 , with a maximum size of 64
+  12321: global: MetadataCacheResponsePort::answer: Received read response with data for addr 2449473536
+  12321: board.memory.metadata_cache: BaseCache::satisfyRequest address 2449473536 with offset 0 and size 64 , with a maximum size of 64
+  12321: global: MetadataCacheRequestPort::recvTimingResp: Received read response with data for addr 2415919360
+  12321: global: MemSidePort::sendPacket: Received read request without data for addr 2415919360
+  12654: global: MetadataCacheRequestPort::recvTimingResp: Received read response with data for addr 2449473536
+  12654: global: MemSidePort::sendPacket: Received read request without data for addr 2449473536
+  12654: global: MetadataCacheResponsePort::answer: Received read response with data for addr 2453667840
+  12654: board.memory.metadata_cache: BaseCache::satisfyRequest address 2453667840 with offset 0 and size 64 , with a maximum size of 64
+  12987: global: MetadataCacheResponsePort::answer: Received read response with data for addr 2454192128
+  12987: board.memory.metadata_cache: BaseCache::satisfyRequest address 2454192128 with offset 0 and size 64 , with a maximum size of 64
+  12987: global: MetadataCacheRequestPort::recvTimingResp: Received read response with data for addr 2453667840
+  12987: global: MemSidePort::sendPacket: Received read request without data for addr 2453667840
+  13320: global: MetadataCacheRequestPort::recvTimingResp: Received read response with data for addr 2454192128
+  13320: global: MemSidePort::sendPacket: Received read request without data for addr 2454192128
+  13320: global: MetadataCacheResponsePort::answer: Received read response with data for addr 2454257664
+  13320: board.memory.metadata_cache: BaseCache::satisfyRequest address 2454257664 with offset 0 and size 64 , with a maximum size of 64
+  13653: global: MetadataCacheResponsePort::answer: Received read response with data for addr 2454265856
+  13653: board.memory.metadata_cache: BaseCache::satisfyRequest address 2454265856 with offset 0 and size 64 , with a maximum size of 64
+  13653: global: MetadataCacheRequestPort::recvTimingResp: Received read response with data for addr 2454257664
+  13653: global: MemSidePort::sendPacket: Received read request without data for addr 2454257664
+  13986: global: MetadataCacheRequestPort::recvTimingResp: Received read response with data for addr 2454265856
+  13986: global: MemSidePort::sendPacket: Received read request without data for addr 2454265856
+  13986: global: MetadataCacheResponsePort::answer: Received read response with data for addr 2454266880
+  13986: board.memory.metadata_cache: BaseCache::satisfyRequest address 2454266880 with offset 0 and size 64 , with a maximum size of 64
+  14319: global: MetadataCacheResponsePort::answer: Received read response with data for addr 2454267008
+  14319: board.memory.metadata_cache: BaseCache::satisfyRequest address 2454267008 with offset 0 and size 64 , with a maximum size of 64
+  14319: board.memory.metadata_cache: BaseCache::satisfyRequest address 2454267024 with offset 16 and size 64 , with a maximum size of 64
+  14319: board.memory.metadata_cache: BaseCache::satisfyRequest address 2454267026 with offset 18 and size 64 , with a maximum size of 64
+  14319: global: MetadataCacheRequestPort::recvTimingResp: Received read response with data for addr 2454266880
+  14319: global: MemSidePort::sendPacket: Received read request without data for addr 2454266880
+  14652: global: MetadataCacheRequestPort::recvTimingResp: Received read response with data for addr 2454267008
+  14652: global: MemSidePort::sendPacket: Received read request without data for addr 2454267008
+  14653: global: MetadataCacheRequestPort::recvTimingResp: Received read response with data for addr 2454267024
+  14653: global: MemSidePort::sendPacket: Received read request without data for addr 2454267024
+  14654: global: MetadataCacheRequestPort::recvTimingResp: Received read response with data for addr 2454267026
+  14654: global: MemSidePort::sendPacket: Received read request without data for addr 2454267026
+  71239: global: MemSidePort::recvReqRetry: Received read request without data for addr 2147485824
+ 130823: global: MemSidePort::recvReqRetry: Received read request without data for addr 2415919360
+ 161655: global: MemSidePort::recvTimingResp: Received read response with data for addr 17536
+ 161655: global: SecureMemory::handleResponse: Received read response with data for addr 17536
+ 161655: global: SecureMemory::handleResponse::3: Received read response with data for addr 17536
+ 190407: global: MemSidePort::recvReqRetry: Received read request without data for addr 2449473536
+ 221239: global: MemSidePort::recvTimingResp: Received read response with data for addr 2147485824
+ 221239: global: SecureMemory::handleResponse: Received read response with data for addr 2147485824
+ 221239: global: SecureMemory::handleResponse::2: Received read response with data for addr 2147485824
+ 249991: global: MemSidePort::recvReqRetry: Received read request without data for addr 2453667840
+ 280823: global: MemSidePort::recvTimingResp: Received read response with data for addr 2415919360
+ 280823: global: SecureMemory::handleResponse: Received read response with data for addr 2415919360
+ 280823: global: SecureMemory::handleResponse::3: Received read response with data for addr 2415919360
+ 309575: global: MemSidePort::recvReqRetry: Received read request without data for addr 2454192128
+ 340407: global: MemSidePort::recvTimingResp: Received read response with data for addr 2449473536
+ 340407: global: SecureMemory::handleResponse: Received read response with data for addr 2449473536
+ 340407: global: SecureMemory::handleResponse::3: Received read response with data for addr 2449473536
+ 369159: global: MemSidePort::recvReqRetry: Received read request without data for addr 2454257664
+ 399991: global: MemSidePort::recvTimingResp: Received read response with data for addr 2453667840
+ 399991: global: SecureMemory::handleResponse: Received read response with data for addr 2453667840
+ 399991: global: SecureMemory::handleResponse::3: Received read response with data for addr 2453667840
+ 428743: global: MemSidePort::recvReqRetry: Received read request without data for addr 2454265856
+ 459575: global: MemSidePort::recvTimingResp: Received read response with data for addr 2454192128
+ 459575: global: SecureMemory::handleResponse: Received read response with data for addr 2454192128
+ 459575: global: SecureMemory::handleResponse::3: Received read response with data for addr 2454192128
+ 488327: global: MemSidePort::recvReqRetry: Received read request without data for addr 2454266880
+ 519159: global: MemSidePort::recvTimingResp: Received read response with data for addr 2454257664
+ 519159: global: SecureMemory::handleResponse: Received read response with data for addr 2454257664
+ 519159: global: SecureMemory::handleResponse::3: Received read response with data for addr 2454257664
+ 547911: global: MemSidePort::recvReqRetry: Received read request without data for addr 2454267008
+ 578743: global: MemSidePort::recvTimingResp: Received read response with data for addr 2454265856
+ 578743: global: SecureMemory::handleResponse: Received read response with data for addr 2454265856
+ 578743: global: SecureMemory::handleResponse::3: Received read response with data for addr 2454265856
+ 607495: global: MemSidePort::recvReqRetry: Received read request without data for addr 2454267024
+ 638327: global: MemSidePort::recvTimingResp: Received read response with data for addr 2454266880
+ 638327: global: SecureMemory::handleResponse: Received read response with data for addr 2454266880
+ 638327: global: SecureMemory::handleResponse::3: Received read response with data for addr 2454266880
+ 667079: global: MemSidePort::recvReqRetry: Received read request without data for addr 2454267026
+ 697911: global: MemSidePort::recvTimingResp: Received read response with data for addr 2454267008
+ 697911: global: SecureMemory::handleResponse: Received read response with data for addr 2454267008
+ 697911: global: SecureMemory::handleResponse::3: Received read response with data for addr 2454267008
+ 757495: global: MemSidePort::recvTimingResp: Received read response with data for addr 2454267024
+ 757495: global: SecureMemory::handleResponse: Received read response with data for addr 2454267024
+ 757495: global: SecureMemory::handleResponse::3: Received read response with data for addr 2454267024
+ 817079: global: MemSidePort::recvTimingResp: Received read response with data for addr 2454267026
+ 817079: global: SecureMemory::handleResponse: Received read response with data for addr 2454267026
+ 817079: board.memory.secure_memory: SecureMemory::handleResponse: root level: 1 for pkt addr: 2454267026
+ 817079: global: SecureMemory::verifyChildren::1: Received read response with data for addr 2454267026
+ 817079: global: SecureMemory::verifyChildren::1: Received read response with data for addr 2454267024
+ 817079: global: SecureMemory::verifyChildren::1: Received read response with data for addr 2454267008
+ 817079: global: SecureMemory::verifyChildren::1: Received read response with data for addr 2454266880
+ 817079: global: SecureMemory::verifyChildren::1: Received read response with data for addr 2454265856
+ 817079: global: SecureMemory::verifyChildren::1: Received read response with data for addr 2454257664
+ 817079: global: SecureMemory::verifyChildren::1: Received read response with data for addr 2454192128
+ 817079: global: SecureMemory::verifyChildren::1: Received read response with data for addr 2453667840
+ 817079: global: SecureMemory::verifyChildren::1: Received read response with data for addr 2449473536
+ 817079: global: SecureMemory::verifyChildren::1: Received read response with data for addr 2415919360
+ 817079: global: SecureMemory::verifyChildren::1: Received read response with data for addr 17536
+ 817079: global: SecureMemory::verifyChildren::2: Received read response with data for addr 17536
+ 817079: global: SecureMemory::verifyChildren::3: Received read response with data for addr 17536
+ 817079: global: SecureMemory::verifyChildren::4::authenticated: Received read response with data for addr 17536
+ 817079: global: CpuSidePort::sendPacket: Received read response with data for addr 17536
