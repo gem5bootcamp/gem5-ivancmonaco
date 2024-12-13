@@ -24,10 +24,9 @@ Besides the moving parts, we are going to use the following fixed equipment:
 
 ## Results
 
-![Matrix Multiply with Big Processor](http://design-space-exploration/results/Figure_1.png)
-![Matrix Multiply with Little Processor](http://design-space-exploration/results/Figure_2.png)
-![BFS with Big Processor](http://design-space-exploration/results/Figure_3.png)
-![BFS with Little Processor](http://design-space-exploration/results/Figure_4.png)
+![Matrix Multiply with Big Processor](./design-space-exploration/results/Figure_1.png)
+![Matrix Multiply with Little Processor](./design-space-exploration/results/Figure_2.png)
+![BFS with Big Processor](./design-space-exploration/results/Figure_3.png)
+![BFS with Little Processor](./design-space-exploration/results/Figure_4.png)
 
-
-
+## Conclusions
