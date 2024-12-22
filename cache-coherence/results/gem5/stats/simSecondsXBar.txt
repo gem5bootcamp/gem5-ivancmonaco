@@ -1,7 +1,0 @@
-Test,X Bar Latency,Time Taken (s)
-Naive,1,0.000347
-Naive,10,0.000818
-Naive,25,0.000958
-All opt,1,0.000226
-All opt,10,0.000236
-All opt,25,0.000251

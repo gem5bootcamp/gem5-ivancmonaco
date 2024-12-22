@@ -1,7 +1,0 @@
-Test,Read Sharing
-All opt,223
-Block race,1193
-Chunking,194
-Chunking res race opt,199
-Naive,1970
-Res race opt,1974
